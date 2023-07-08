@@ -1,0 +1,35 @@
+.note{
+    font-size: 18px;
+    text-align: center;
+}
+
+.heading{
+    color: white;
+    font-size: 23px;
+    float: center;
+    text-align: center;
+    width:100%;
+}
+
+.copy_right_footer{
+    position: fixed; 
+    float: bottom;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    bottom:0; 
+}
+
+canvas{
+    border: 5px solid lightgoldenrodyellow; 
+    border-radius: 100px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{border: 5px solid rgb(0, 0, 0)}; 
+    to{border: 5px solid lightgoldenrodyellow};
+}
